@@ -1,0 +1,45 @@
+[
+    {
+      "college_image": "https://i.ibb.co/L0wzwBd/photo-1523050854058-8df90110c9f1.jpg",
+      "college_name": "Sonarga University",
+      "college_rating": 4.5,
+      "admission_date": "2023-09-01",
+      "research_count": 120
+    },
+    {
+      "college_image": "https://i.ibb.co/R3J620S/photo-1562774053-701939374585.jpg",
+      "college_name": "Asia University",
+      "college_rating": 4.2,
+      "admission_date": "2023-08-15",
+      "research_count": 80
+    },
+    {
+      "college_image": "https://i.ibb.co/J5k1f32/i-Stock-1142918319-WENR-Ranking-740-430.jpg",
+      "college_name": "brack University",
+      "college_rating": 3.9,
+      "admission_date": "2023-09-10",
+      "research_count": 60
+    },
+    {
+      "college_image": "https://i.ibb.co/wyLvdcd/images.jpg",
+      "college_name": "United University",
+      "college_rating": 4.7,
+      "admission_date": "2023-08-30",
+      "research_count": 150
+    },
+    {
+      "college_image": "https://i.ibb.co/VM5FcRC/1MIT.jpg",
+      "college_name": "University of Dhaka",
+      "college_rating": 3.5,
+      "admission_date": "2023-09-05",
+      "research_count": 40
+    },
+    {
+      "college_image": "https://i.ibb.co/6tX5Nv4/104790550-Radcliffe-Camera.jpg",
+      "college_name": "BUET University",
+      "college_rating": 4.0,
+      "admission_date": "2023-08-25",
+      "research_count": 90
+    }
+  ]
+
