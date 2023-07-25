@@ -24,7 +24,7 @@ const router = createBrowserRouter([{
         {
             path:'/collegeDetails/:id',
             element:<CollegeDetails></CollegeDetails>,
-            loader:({params}) =>fetch(`http://localhost:5000/collegeDetails/${params.id}`)
+            loader:({params}) =>fetch(`https://uni-booker-server-ghru.vercel.app/collegeDetails/${params.id}`)
         },
     ]
 }

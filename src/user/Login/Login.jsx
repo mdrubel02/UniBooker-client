@@ -64,7 +64,7 @@ const Login = () => {
                         <div className="w-full max-w-xl xl:px-8 xl:w-6/12 m-auto">
                             <div className={` rounded shadow-2xl p-7 sm:p-10 ${!theme ? 'bg-[#1D293A]' : 'bg-white'}`}>
                                 <div className='flex justify-between mb-4'>
-                                    <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
+                                    <h3 className="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl text-accent">
                                         Login
                                     </h3>
                                     <Link to="/register" className="mb-4 text-xl sm:text-center sm:mb-6 sm:text-xl italic text-primary">

@@ -8,7 +8,7 @@ const Colleges = () => {
   const { isLoading, error, data } = useQuery({
     queryKey: ['courses'],
     queryFn: () =>
-      fetch('http://localhost:5000/college').then(res =>
+      fetch('https://uni-booker-server-ghru.vercel.app/college').then(res =>
         res.json()
       )
   })
@@ -18,7 +18,7 @@ const Colleges = () => {
   if (error) return 'An error has occurred: ' + error.message
   return (
     <div className={`w-[88%] mx-auto ${!theme ? 'text-white' : ''}`}>
-      <h1 className='text-center text-4xl font-bold mt-14 mb-12'>My Projects</h1>
+      <h1 className='text-center text-4xl font-bold mt-14 mb-12 text-accent'>Univercity Here</h1>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 my-16'>
         {
           data.map((data) => <SingleCollege key={data._id} data={data}></SingleCollege>)

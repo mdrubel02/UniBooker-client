@@ -72,7 +72,7 @@ const Admission = () => {
         };
         console.log(admission);
   
-        const res = await fetch(`http://localhost:5000/choice`, {
+        const res = await fetch(`https://uni-booker-server-ghru.vercel.app/choice`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -102,7 +102,7 @@ const Admission = () => {
     setIsModalOpen(false);
   };
   return (
-    <div className={`w-[80%] mx-auto mt-8 ${!theme ? 'text-white' : ''}`}>
+    <div className={`w-[80%] mx-auto mt-8 mb-4 ${!theme ? 'text-white' : ''}`}>
       <div className=' h-8  bg-accent'>
         <h4>improtant notice here</h4>
       </div>
@@ -114,7 +114,7 @@ const Admission = () => {
       <div className={`${!theme ? 'bg-[#1D293A]' : ''}`}>
         <div className="modal" id="my-modal-2">
           <div className={`modal-box ${!theme ? 'bg-[#1D293A]' : ''}`}>
-            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={handleCloseModal}>✕</button>
+            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" ><a href="#">✕</a></button>
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="form-control w-full mb-4">
                 <label className="label">
@@ -175,10 +175,6 @@ const Admission = () => {
                   <span className="label-text font-semibold text-white">Candidate  Address*</span>
                 </label>
                 <textarea type="text" {...register("address", { required: true })} className="textarea w-full text-accent" placeholder="Your Address Here"></textarea>
-              </div>
-              <div className="modal-action">
-                {/* if there is a button in form, it will close the modal */}
-                <button href="#" className="btn">Close</button>
               </div>
               <input className="btn btn-sm mt-4 text-white bg-accent w-full mb-3" type="submit" value="Submit" />
             </form>

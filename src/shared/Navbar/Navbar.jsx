@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { ThemeContext } from '../../Context/ThemeProvider';
 import { Link, NavLink } from 'react-router-dom';
-import { AiOutlineSearch } from 'react-icons/ai';
 import { AuthContext } from '../../Context/AuthProvider';
 import { AiOutlineUserAdd } from 'react-icons/ai';
 import { Store } from 'react-notifications-component';
@@ -50,11 +49,6 @@ const Navbar = () => {
 
                             <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-skills'>admission</NavLink></li>
                             <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-projects'>My-College</NavLink></li>
-                            {/* <li className='transition-all duration-500 hover:text-accent font-semibold mr-6 cursor-pointer'><NavLink to='/my-contacts'>CONTACT</NavLink></li> */}
-                            <div className='relative'>
-                                <input type="text" placeholder="Type here" className="input input-bordered input-accent focus-none w-full max-w-xs" />
-                                <span className='absolute top-4 right-4 text-accent cursor-pointer' ><AiOutlineSearch className='text-lg' /></span>
-                            </div>
                         </ul>
                     </div>
                     <Link to='/'><img className='w-14 rounded-md' src="assets/logo8.png" alt="" /></Link>
@@ -95,10 +89,6 @@ const Navbar = () => {
                                 </>
                                 : undefined
                         }
-                        <div className='relative'>
-                            <input type="text" placeholder="Type here" className="input input-bordered input-accent focus-none w-full max-w-xs" />
-                            <span className='absolute top-4 right-4 text-accent cursor-pointer' ><AiOutlineSearch className='text-lg' /></span>
-                        </div>
                     </ul>
                 </div>
                 <div className="navbar-end">

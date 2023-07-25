@@ -10,8 +10,8 @@ const Footer = () => {
           <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
             <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
               <div>
-                <p className="font-medium tracking-wide text-white text-2xl mb-5 font-jost">
-                  <img className='w-20' src="https://i.ibb.co/YyJS43b/4862745-01-removebg-preview.png" alt="" />
+                <p className="font-medium tracking-wid text-2xl mb-5 font-jost text-accent">
+                UniBooker
                 </p>
                 
               </div>
@@ -167,7 +167,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col justify-between pt-5 pb-10 border-t border-gray-800 sm:flex-row">
             <p className="text-sm text-white">
-              © Copyright 2022 ToneTuitors.lmt All rights reserved.
+              © Copyright 2022 UniBooker.lmt All rights reserved.
             </p>
             <div className="flex items-center mt-4 space-x-4 sm:mt-0">
               <a
